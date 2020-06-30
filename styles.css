@@ -1,0 +1,35 @@
+@font-face {
+    font-family:
+    src: <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+}
+
+body {
+    background-color: crimson;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    color: crimson;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: Special-Elite;
+    margin: 10px 40px
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#content-field {
+    color: whitesmoke;
+    font-family: 'Special Elite';
+    font-size: 100px;
+}
