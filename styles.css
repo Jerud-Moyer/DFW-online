@@ -4,8 +4,9 @@
 }
 
 body {
-    background: url(../mikeskull.jpg) no-repeat center;
-    background-size: cover;
+    background-image: url(../mikeskull.jpg);
+    background-position: center;
+    background-size: 90%;
     border: solid red 10px;
     display: flex;
     justify-content: center;
@@ -18,8 +19,10 @@ main {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url(../mikeskull.jpg) no-repeat center;
-    background-size: 80%;
+    background: url(../mikeskull.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
 }
 
 li {
