@@ -18,13 +18,13 @@ main {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background: url(../mikeskull.jpg) no-repeat center;
+    background-image: url(../mikeskull.jpg) no-repeat center;
     background-size: 80%;
 }
 
 li {
     color: crimson;
-    text-shadow: black 2px 2px;
+    text-shadow: black 2px 1px;
     display: flex;
     flex-direction: row;
     font-size: 30px;
