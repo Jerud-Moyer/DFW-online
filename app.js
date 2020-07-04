@@ -11,8 +11,6 @@ function backBackground() {
 
 function backOff () {
     setInterval(altBackground, 10000);
-    
-    
 };
 
 
